@@ -20,7 +20,6 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import {
-  GitBranch,
   Lock,
   Globe,
   RefreshCw,
@@ -28,7 +27,6 @@ import {
   Trash2,
   ArrowRight,
   Star,
-  GitPullRequest,
   Search,
   X,
   CheckCircle,
@@ -261,7 +259,7 @@ export default function ReposPage() {
                   </div>
                 </div>
 
-                <div className="max-h-[400px] overflow-y-auto">
+                <div className="max-h-100 overflow-y-auto">
                   {filteredAvailableRepos.length === 0 ? (
                     <div className="py-12 text-center">
                       <p className="text-sm text-muted-foreground">
